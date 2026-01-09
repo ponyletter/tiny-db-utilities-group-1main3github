@@ -198,6 +198,26 @@ python -m tinydb_tool.main insert --help
 
 See [DEVELOPER.md](DEVELOPER.md) for information on extending the tool suite.
 
+## Development & Testing
+
+This project is maintained with high test coverage standards.
+
+### Setting up Development Environment
+
+```bash
+# Install in editable mode for development
+pip install -e .
+```
+
+### Running Tests
+
+We use pytest for unit and integration testing.
+
+```bash
+# Run the full test suite
+pytest
+```
+
 ## License
 
 MIT License
